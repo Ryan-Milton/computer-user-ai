@@ -1,9 +1,9 @@
 'use strict';
 
 class Node{
-  constructor(value, left=null,right=null, lastMove){
+  constructor(value, left=null,right=null, result){
     this.value = value;
-    this.lastMove = lastMove;
+    this.result = result;
     this.left = left;
     this.right = right;
   }
